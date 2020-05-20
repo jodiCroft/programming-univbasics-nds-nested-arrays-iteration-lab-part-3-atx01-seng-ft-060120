@@ -5,7 +5,7 @@ def join_nested_strings(aoa_strings_and_nums)
     element_index = 0
     while element_index < aoa_strings_and_nums[row_index].length do
       if aoa_strings_and_nums[row_index][element_index].class == String
-        all_the_strings << aoa_strings_and_nums[row_index][element_index]
+        all_the_strings << aoa_strings_and_nums[row_index][element_index] + " "
     end
     element_index += 1
   end
