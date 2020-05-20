@@ -8,8 +8,9 @@ def join_nested_strings(aoa_strings_and_nums)
         all_the_strings.push(aoa_strings_and_nums[row_index][element_index])
         element_index += 1
     end
+    row_index += 1
   end
-  row_index += 1
+  all_the_strings
 end
 
 
